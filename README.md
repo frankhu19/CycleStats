@@ -3,21 +3,21 @@
 https://www.mindsumo.com/contests/bikeshare-data
 Capital One's January Software Engineering Summit (SES). A coding challenge through MindSumo in which data on Capital One's bikeshare program was provided. The objective of this was to build a web app that analyzes and visualizes bike share data from the city of Los Angeles
 
-##Criteria
+# Criteria
 --------------------------
 - Data Visuals: Display or graph 3 metrics or trends from the data set that are interesting to you.
 - Which start/stop stations are most popular?
 - What is the average distance traveled?
 - How many riders include bike sharing as a regular part of their commute?
 
-##Bonus
+# Bonus
 --------------------------
 - How does ridership change with seasons? Types of passes used, trip duration, etc
 - Is there a net change of bikes over the course of a day? If so, when and
 - where should bikes be transported in order to make sure bikes match travel patterns?
 - What is the breakdown of Trip Route Category-Passholder type combinations? What might make a particular combination more popular?
 
-##Build
+# Build
 1.  Graphs 
 a. line plot displaying how bikesharing varies throughout the day for each Season. 
 b. bar chart which shows how average duration of a rider varies throughout a week- shows seasonal changes 
@@ -32,5 +32,13 @@ f. Barplot showing how average distance varies between the seasons- Summer had t
 a. Consists of 3 graphs: Bikeshare rentals throughout the year, Passholder Types, Bikeshare rentals throughout the week
 b. A responsive dashboard that allows users to see how certain passholders varied over a week and even over a week. Can also provide input on which days do certain passholders bikeshare the most and so on. 
 
-##Computation and Code Directory
-All computation, data cleaning, and data manipulation is located 
+# Computation and Code Directory
+All computation, data cleaning, and data manipulation is located in this jupyter notebook: https://github.com/frankhu19/CycleStats/blob/master/Data/Capital_One%20.ipynb
+
+# Datasets 
+Graph a: https://github.com/frankhu19/CycleStats/blob/master/Data/timedata.csv
+Graph b: https://github.com/frankhu19/CycleStats/blob/master/Data/DurationSeasonal.csv
+Graph c: https://github.com/frankhu19/CycleStats/blob/master/Data/cap1chpt2wszn.csv
+Graph d: https://github.com/frankhu19/CycleStats/blob/master/Data/startingstations.csv
+Graph e: https://github.com/frankhu19/CycleStats/blob/master/Data/endingstations.csv
+Graph f: https://github.com/frankhu19/CycleStats/blob/master/Data/cap1chpt2wszn.csv
