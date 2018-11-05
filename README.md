@@ -1,74 +1,36 @@
-# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
+## Capital One BikeShare
+-------------------------
+https://www.mindsumo.com/contests/bikeshare-data
+Capital One's January Software Engineering Summit (SES). A coding challenge through MindSumo in which data on Capital One's bikeshare program was provided. The objective of this was to build a web app that analyzes and visualizes bike share data from the city of Los Angeles
 
-[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+##Criteria
+--------------------------
+- Data Visuals: Display or graph 3 metrics or trends from the data set that are interesting to you.
+- Which start/stop stations are most popular?
+- What is the average distance traveled?
+- How many riders include bike sharing as a regular part of their commute?
 
-## Preview
+##Bonus
+--------------------------
+- How does ridership change with seasons? Types of passes used, trip duration, etc
+- Is there a net change of bikes over the course of a day? If so, when and
+- where should bikes be transported in order to make sure bikes match travel patterns?
+- What is the breakdown of Trip Route Category-Passholder type combinations? What might make a particular combination more popular?
 
-[![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](https://blackrockdigital.github.io/startbootstrap-agency/)
+##Build
+1.  Graphs 
+a. line plot displaying how bikesharing varies throughout the day for each Season. 
+b. bar chart which shows how average duration of a rider varies throughout a week- shows seasonal changes 
+c. Bubble Plot displaying the number of people in each membership category 
+d. Barplot showing the most popular Starting stations- Stations 3069, 3030, and 3005 were the three most popular
+e. Barplot showing the most popular Ending stations- Stations 3005, 3031, and 3014 were the three most popular
+f. Barplot showing how average distance varies between the seasons- Summer had the highest average distance
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
+2. Timeline of my Data Analysis Procedure
 
-## Status
+3. Dashboard
+a. Consists of 3 graphs: Bikeshare rentals throughout the year, Passholder Types, Bikeshare rentals throughout the week
+b. A responsive dashboard that allows users to see how certain passholders varied over a week and even over a week. Can also provide input on which days do certain passholders bikeshare the most and so on. 
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
-* Install via npm: `npm i startbootstrap-agency`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm and Gulp installed globally on your machine in order to use these features.
-
-## Troubleshooting and Help
-
-Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
-
-**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+##Computation and Code Directory
+All computation, data cleaning, and data manipulation is located 
