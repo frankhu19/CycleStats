@@ -36,9 +36,9 @@ b. A responsive dashboard that allows users to see how certain passholders varie
 All computation, data cleaning, and data manipulation is located in this jupyter notebook: https://github.com/frankhu19/CycleStats/blob/master/Data/Capital_One%20.ipynb
 
 # Datasets 
-Graph a: https://github.com/frankhu19/CycleStats/blob/master/Data/timedata.csv
-Graph b: https://github.com/frankhu19/CycleStats/blob/master/Data/DurationSeasonal.csv
-Graph c: https://github.com/frankhu19/CycleStats/blob/master/Data/cap1chpt2wszn.csv
-Graph d: https://github.com/frankhu19/CycleStats/blob/master/Data/startingstations.csv
-Graph e: https://github.com/frankhu19/CycleStats/blob/master/Data/endingstations.csv
-Graph f: https://github.com/frankhu19/CycleStats/blob/master/Data/cap1chpt2wszn.csv
+a. Graph a: https://github.com/frankhu19/CycleStats/blob/master/Data/timedata.csv
+b. Graph b: https://github.com/frankhu19/CycleStats/blob/master/Data/DurationSeasonal.csv
+c. Graph c: https://github.com/frankhu19/CycleStats/blob/master/Data/cap1chpt2wszn.csv
+d. Graph d: https://github.com/frankhu19/CycleStats/blob/master/Data/startingstations.csv
+e. Graph e: https://github.com/frankhu19/CycleStats/blob/master/Data/endingstations.csv
+f. Graph f: https://github.com/frankhu19/CycleStats/blob/master/Data/cap1chpt2wszn.csv
