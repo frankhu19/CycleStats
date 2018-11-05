@@ -20,7 +20,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles -->
     <link href="css/agency.min.css" rel="stylesheet">
 
   </head>
@@ -41,7 +41,7 @@
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#timeline">Timeline</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#Dashboard">Dashboard</a>
@@ -160,7 +160,7 @@
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="timeline">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -249,10 +249,28 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Dashboard</h2>
             <h3 class="section-subheading text-muted">Displayed below is a dashboard that shows the yearly change in bikeshares, passholder statistics, 
-            rentals during the week. You can filter the data to see how a certain passholder's bikeshare varied over the year or a week by clicking on the appropriate circle. Can filter on a range of weekdays to see how bikeshares change. Loads of custimizability. Play around with it! You can't handlebar our dashboard!</h3>
+            rentals during the week. You can filter the data to see how a certain passholder's bikeshare varied over the year or a week by clicking on the appropriate circle. Can filter on a range of weekdays (Monday-0, Tuesday-1,..., and Sunday-6) to see how bikeshares change. Loads of custimizability. Some interesting insights that I gained from the Dashboard are that monthly users tend to use it the most from Tuesday to Thursday. This signifies that these monthly users use bikeshares as their primary transformation. Walkup on the otheroccurs most often during the weekend.Play around with it! You can't handlebar our dashboard!</h3>
           
-    <div class='tableauPlaceholder' id='viz1541415119013' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capital1Dash1&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Capital1Dash1&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capital1Dash1&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1541415119013');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
+            <div class='tableauPlaceholder' id='viz1541432821779' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capital1Tableau&#47;Dashboard1&#47;1_rss.png' style='border: none'></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F'>
+            <param name='embed_code_version' value='3'>
+            <param name='site_root' value=''>
+            <param name='name' value='Capital1Tableau&#47;Dashboard1'>
+            <param name='tabs' value='no'>
+            <param name='toolbar' value='yes'>
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ca&#47;Capital1Tableau&#47;Dashboard1&#47;1.png'>
+            <param name='animate_transition' value='yes'>
+            <param name='display_static_image' value='yes'>
+            <param name='display_spinner' value='yes'>
+            <param name='display_overlay' value='yes'>
+            <param name='display_count' value='yes'>
+            <param name='filter' value='publish=yes'>
+            </object>
+            </div>
+            <script type='text/javascript'>
+                     var divElement = document.getElementById('viz1541432821779');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
           </div>
         </div>
       </div>
@@ -277,7 +295,7 @@
                   <h2 class="text-uppercase">BikeShare Trends over a Day</h2>
                   <p class="item-intro text-muted">With Seasonal Analysis!.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/BikeSharesHour.png" alt="">
-                  <p> As shown above, there are seems to be three peaks for bikeshare ridership during the day: 8AM, 12PM, and 5PM. These times make sense since these times are either when most people are off from work or school or on a lunch break. Summer has the highest ridership at 12PM and 5PM. It should be noted that there were not enough datapoints for Spring, thus it would not be a fair comparison between the other seasons. Winter has the lowest ridership throughout the day if not including Spring.</p>
+                  <p> As shown above, there are seems to be three peaks for bikeshare ridership during the day: 8AM, 12PM, and 5PM. These times make sense since these times are either when most people are off from work or school or on a lunch break. Summer has the highest ridership at 12PM and 5PM. It should be noted that there were not enough datapoints for Spring, thus it would not be a fair comparison between the other seasons. Winter has the lowest ridership throughout the day if not including Spring. Overall, this could help Capital One figure out where to put more bikes. At the beginning of these times, Capital One should place more bikes at Stations 3030,3005, and 3069, which are the most popular starting station.</p>
                   <ul class="list-inline">
                     <li>Date: November 2018</li>
                   </ul>
@@ -433,9 +451,9 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Distance</h2>
-                  <p class="item-intro text-muted">Analsysis.</p>
+                  <p class="item-intro text-muted">Analysis.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/DistanceAnalysis.png" alt="">
-                  <p>The average bikeshare distance is 3.04 miles. However, it seems to be that the average distance traveled by Summer is driving this since its average bike distance is 6.679 miles while every other average is 1 or less miles. This could be the result of a biking competition or data misentry.</p>
+                  <p>The average bikeshare distance is 3.04 miles. However, it seems to be that the average distance traveled during Summer is driving this since its average bike distance is 6.679 miles while every other average is 1 or less miles. This could be the result of a biking competition or data misentry.</p>
                   <ul class="list-inline">
                     <li>Date: November 2018</li>
                   </ul>
