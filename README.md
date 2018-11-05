@@ -37,8 +37,13 @@ All computation, data cleaning, and data manipulation is located in this jupyter
 
 # Datasets 
 a. Graph a: https://github.com/frankhu19/CycleStats/blob/master/Data/timedata.csv
+
 b. Graph b: https://github.com/frankhu19/CycleStats/blob/master/Data/DurationSeasonal.csv
+
 c. Graph c: https://github.com/frankhu19/CycleStats/blob/master/Data/cap1chpt2wszn.csv
+
 d. Graph d: https://github.com/frankhu19/CycleStats/blob/master/Data/startingstations.csv
+
 e. Graph e: https://github.com/frankhu19/CycleStats/blob/master/Data/endingstations.csv
+
 f. Graph f: https://github.com/frankhu19/CycleStats/blob/master/Data/cap1chpt2wszn.csv
